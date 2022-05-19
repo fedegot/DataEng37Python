@@ -34,13 +34,11 @@
 #CAPITALIZE
 #REPLACE
 
-
-
 #@@@@@@@@@@@@@@@@@@@@ STRIP @@@@@@@@@@@@@@@@@@@@
 message = '     Hello World!  '
 
 # remove leading and trailing whitespaces
-print('Message:', message.strip())
+print('Message:',"from:" + message + "  to: " + message.strip())
 #@@@@@@@@@@@@@@@@@@@@ COUNT @@@@@@@@@@@@@@@@@@@@
 message2 = 'Hello World!'
 print('Count:', message2.count('o'))
@@ -52,8 +50,16 @@ print('Capitalize:', message2.capitalize())
 print('Capitalize:', message2.replace("World", "Fred"))
 
 
+#concatenation
+a = "mr"
+b = "Blue"
+c = "Sky"
 
+print(a + " " + b + " " + c)
 
+a = "ciao"
+b = 2
 
+print(a + str(b))
 
 
