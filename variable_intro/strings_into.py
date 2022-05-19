@@ -62,4 +62,17 @@ b = 2
 
 print(a + str(b))
 
+#F-String (formatted string)
+print(f"The next song is: {a} {b} {c}")
 
+
+#change the decimal
+score = 16
+max_score = 26
+
+print(f"You scored {score/max_score}")
+print(f"You scored {score/max_score:%}")
+print(f"You scored {score/max_score:.0%}")
+print(f"You scored {score/max_score:.2%}")
+
+#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@
