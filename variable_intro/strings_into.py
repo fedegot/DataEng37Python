@@ -1,19 +1,59 @@
+#
+#
+# double = "double quote"
+# single = 'single quote'
+#
+# print(double, single)
+#
+# failure = 'I said "oh no!"'
+# both = 'I said "oh no david\'s asdasdas"'
+# print(both)
+#
+# h = "hello world!"
+# print(h[6]) #Print the caracter we want
+# print(h[-1]) #Print the caracter we want backwards
+# print(h[1:6]) #print part of the string
+#
+#
+# #from slicing h, print "lo wo"
+# print(h[3:8])
+# print(h[3:])
+# print(h[1:-1:3])
+# print(h[4::2])
+# print(h[::-1])
+#
+# # Methods string
+#
+# print(type(h))
+# print(h.lower())
 
 
-double = "double quote"
-single = 'single quote'
-
-print(double, single)
-
-failure = 'I said "oh no!"'
-both = 'I said "oh no david\'s asdasdas"'
-print(both)
-
-h = "hello world!"
-print(h[6]) #Print the caracter we want
-print(h[-1]) #Print the caracter we want backwards
-print(h[1:6]) #print part of the string
+#STRIP
+#COUNT
+#UPPER
+#CAPITALIZE
+#REPLACE
 
 
-#from slicing h, print "lo wo"
-print(h[3:8])
+
+#@@@@@@@@@@@@@@@@@@@@ STRIP @@@@@@@@@@@@@@@@@@@@
+message = '     Hello World!  '
+
+# remove leading and trailing whitespaces
+print('Message:', message.strip())
+#@@@@@@@@@@@@@@@@@@@@ COUNT @@@@@@@@@@@@@@@@@@@@
+message2 = 'Hello World!'
+print('Count:', message2.count('o'))
+#@@@@@@@@@@@@@@@@@@@@ UPPER @@@@@@@@@@@@@@@@@@@@
+print('Upper:', message2.upper())
+#@@@@@@@@@@@@@@@@@@@@ CAPITALIZE @@@@@@@@@@@@@@@
+print('Capitalize:', message2.capitalize())
+#@@@@@@@@@@@@@@@@@@@@ REPLACE @@@@@@@@@@@@@@@@@@
+print('Capitalize:', message2.replace("World", "Fred"))
+
+
+
+
+
+
+
