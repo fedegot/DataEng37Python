@@ -76,3 +76,16 @@ print(f"You scored {score/max_score:.0%}")
 print(f"You scored {score/max_score:.2%}")
 
 #@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@
+print("#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@")
+
+mx = "CompanyX"
+mx2 = "companyx"
+mx3 = "COMPANYX"
+mx4 = "CompanyX?"
+mx5 = "?CompanyX"
+
+print(mx.isalpha())
+print(mx2.islower())
+print(mx3.isupper())
+print(mx4.endswith("?"))
+print(mx5.startswith("?"))
