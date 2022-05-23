@@ -26,15 +26,36 @@
 #         count = count + 1
 
 #@@@@@@@@@@@@@@@ AGE CONFIRMATION WITH WHILE LOOP @@@@@@@@@@@@@@@
-keep_asking = True
+# keep_asking = True
+#
+# while keep_asking:
+#     age = input("What is your age?\n")
+#     if age.isdigit():
+#         age_int = int(age)
+#         keep_asking = False
+#     else:
+#         print("Please enter a valid number in digits.")
+#
+# print(f"Your Age is {age_int}")
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-while keep_asking:
-    age = input("What is your age?\n")
-    if age.isdigit():
-        age_int = int(age)
-        keep_asking = False
+#FIZZBUZZ WITH INPUT
+
+count = input("Please enter the number to FizzBuzz up to: ")
+count = int(count)
+
+for i in range(1, count):
+    if (i % 5) == 0 and (i % 3) == 0:
+        print("FizzBuzz")
+        i = i +1
+    elif(i % 3) == 0:
+        print("Fizz")
+        i = i + 1
+    elif (i % 5) == 0:
+        print("Buzz")
+        i = i +1
     else:
-        print("Please enter a valid number in digits.")
+        print(i)
+        i = i + 1
 
-print(f"Your Age is {age_int}")
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
