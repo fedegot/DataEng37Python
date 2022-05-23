@@ -39,7 +39,7 @@
 # print(f"Your Age is {age_int}")
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-#FIZZBUZZ WITH INPUT
+#FIZZBUZZ WITH INPUT NORMAL LOOP
 
 count = input("Please enter the number to FizzBuzz up to: ")
 count = int(count)
@@ -57,5 +57,27 @@ for i in range(1, count):
     else:
         print(i)
         i = i + 1
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+#FIZZBUZZ WITH INPUT WITH WHILE LOOP
+
+
+cou = input("please insert a number where to start to count from \n")
+cou = int(cou)
+
+while cou < 101:
+    if (cou % 5) == 0 and (cou % 3) == 0:
+        print("FizzBuzz" + " " + str(cou))
+        cou = cou + 1
+    elif(cou % 3) == 0:
+        print("Fizz" + " " + str(cou))
+        cou = cou + 1
+    elif (cou % 5) == 0:
+        print("Buzz" + " " + str(cou))
+        cou = cou +1
+    else:
+        print(cou)
+        cou = cou + 1
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
