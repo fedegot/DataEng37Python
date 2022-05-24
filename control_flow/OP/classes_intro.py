@@ -84,25 +84,33 @@
 
 # accelerate method - takes a speed in mph and adds it to the current speed
 # break method - takes a speed and subtracts it from current speed
-
-
 class Car:
     def __init__(self, make, model, top_speed):
         self.speed_add = None
         self.make = make
         self.model = model
         self.top_speed = top_speed
-        self.speed = 0
+        self._speed = 0
 
     def accelerate(self, speed):
-        self.speed += speed
+        self._speed = min(self._speed + speed, self.top_speed)
 
     def brake(self, brake):
-        self.speed -= brake
+        self._speed = max(self._speed + brake, 0)
+
+    # Getter
+    def get_speed(self):
+        return self._speed
 
 
 MyCar = Car("BMW", "118d", 170)
 MyCar.accelerate(40)
 MyCar.brake(20)
 
-print(MyCar.speed)
+print(MyCar._speed)  # The  _ is for say "Live me alone do not touch me
+print(MyCar.get_speed())
+
+
+##############################
+
+
