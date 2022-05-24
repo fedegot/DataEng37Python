@@ -70,14 +70,11 @@ def Q2c(name):
             for x in sp:
                 if l == x:
                     emp.append(alphabet.index(l))
-
     string_ints = ''.join(map(str, emp))
     print(string_ints)
     m = list(string_ints)
-
     for p in m:
         count += int(p)
-
     print(int(string_ints) - count)
 Q2c("bob")
 
