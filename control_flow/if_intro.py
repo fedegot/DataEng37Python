@@ -36,3 +36,13 @@ if has_ticket:
         print("Come back when you're older.")
 else:
     print("You need a ticket - go buy one!")
+
+
+
+while True:
+    continue_input = "no"
+
+    if continue_input.lower() in ("no", "n"):
+        break
+
+print("out of loop")
