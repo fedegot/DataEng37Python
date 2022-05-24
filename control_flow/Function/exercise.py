@@ -93,3 +93,21 @@ print(prime(20))
 
 
 #Q3b: Now add some functionality to the function which does not error if the user inputs something other than a digit
+
+def prime(x):
+    if x > 1:
+        for n in range(2, x):
+            if (x % n) == 0:
+                return False
+        return True
+    else:
+        return False
+
+
+while True:
+    try:
+        count = int(input("Please insert a number \n"))
+        print(prime(count))
+        break
+    except:
+        print("That's not a valid option!")
