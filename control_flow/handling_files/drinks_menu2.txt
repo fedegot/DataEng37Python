@@ -1,0 +1,27 @@
+Tomato juice 3£
+Smoothie 5£
+Milkshake 8£
+Coconut milk 3£
+Orange juice 4£
+Lemonade 6£
+Fruit juice 9£
+Cocoa 2£
+Water 4£
+Coffee 5£
+Tea bag 6£
+Tea 6£
+Green tea 10£
+Chocolate milk 2£
+Hot chocolate 3£
+Wine 5£
+Coffee 4£
+Lemonade 6£
+Iced tea 7£
+Hot chocolate 4£
+Juice 5£
+Milkshake 7£
+Water 2£
+Tea 5£
+Milk 10£
+Beer 4£
+Soda 2£
