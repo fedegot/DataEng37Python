@@ -63,7 +63,8 @@
 # If that order exists in the menu, write it to the order
 # otherwise, raise an error
 # add prices on the order if you have time
-input = input("Enter your order:\n")
+
+input = input("► Enter your order :\n► Or type menu for read the menù :\n")
 found = False
 
 
@@ -75,6 +76,8 @@ def take_order(n):
         print(errmsg)
     menu2 = list(map(lambda x: x[:-1], menu))
     # search = list(map(lambda y : y == input, menu))
+    if n == "menu":
+        print(menu2)
     for x in menu2:
         if x == n:
             file = open("drinks_orders.txt", "a")
@@ -83,7 +86,5 @@ def take_order(n):
             file.close()
         if found:
             break
-
-
 
 take_order(input)
