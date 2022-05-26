@@ -23,7 +23,7 @@
 #            (A function defined inside another function is called a nested function).
 #            The enclosing scope is visible only for inner and enclosing functions. )
 
-# GLOBAL -  (Global scope contains all the names(variables, functions, objects and so on) that you define at the highest
+# GLOBAL  - (Global scope contains all the names(variables, functions, objects and so on) that you define at the highest
 #           level in your program. It means that we can use that names from anywhere we wish.)
 
 
@@ -48,4 +48,4 @@
 # global function
 
 
-# BUILT-IN - (
+# BUILT-IN - ( ########################################################################## )
