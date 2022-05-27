@@ -1,6 +1,5 @@
 import json
 
-
 class RatesParser:
     # retrieve the data from json file
     def __init__(self, filepath):
